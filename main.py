@@ -6,7 +6,7 @@ init()
 print(Fore.BLACK)
 print(Back.GREEN)
 
-What = input("Что делаем? (+, -, *, /): ")
+What = input("Что делаем? (+, -, *, /, //, %): ")
 
 print(Back.CYAN)
 
@@ -18,6 +18,12 @@ print(Back.YELLOW)
 if What == "+":
     с = a + b
     print(с)
+elif What == "%":
+    c = a % b
+    print(c)
+elif What == "//":
+    c = a // b
+    print(c)
 elif What == "-":
     c = a - b
     print(c)

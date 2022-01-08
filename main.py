@@ -6,7 +6,7 @@ init()
 print(Fore.BLACK)
 print(Back.GREEN)
 
-What = input("Что делаем? (+, -, *, /): ")
+What = input("Что делаем? (+, -, *, /, //, %): ")
 
 print(Back.CYAN)
 
